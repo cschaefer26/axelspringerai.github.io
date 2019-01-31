@@ -24,7 +24,7 @@ export default (props) => {
         {/*<img className='hero__scrollDown' src='static/arrow.png' onClick={scrollDown} />*/}
       </div>
       <p className='hero__text'>
-        <strong>Axel Springer AI</strong> is the artificial intelligence unit of Axel Springer SE. Our mission is to make AI more accessible within the group and hence drive innovations. We establish best practices on how to deliver machine learning projects across the group and conduct state of the art AI research. Our research focus ranges from traditional machine learning to modern deep learning. We mainly employ open-source technologies for our projects, in particular, we primarily use Python and the PyData stack. We also go on conferences and share our knowledge frenquently.
+        <strong>Axel Springer AI</strong> is the artificial intelligence unit of <mark><a href="https://www.axelspringer.com/" target="_blank">Axel Springer SE</a></mark>, one of the largest digital publishing house in Europe. Our mission is to make AI accessible to everyone and hence drive innovations. We deliver end-to-end machine learning projects and conduct state of the art AI research. Our research focus ranges from traditional machine learning to modern deep learning. We mainly employ open-source technologies for our work. We also like to give talks on conferences and share our knowledge frequently. If you'd like to work with us then please <mark><a href="mailto:dat.tran@idealo.de">contact us< /a></mark>!
       </p >
     </header >
   );
