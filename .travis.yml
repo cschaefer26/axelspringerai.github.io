@@ -2,6 +2,10 @@ language: node_js
 node_js:
 - '6'
 
+env:
+  global:
+    secure: "IjAfh87+m4lF2Qr3xsg6+68W+GOVJR9TNC6lGpoQcMiH90DtoqwL/m/eraAyIqkZL1ImHvzAiNTfmf/K6xAOjaybLJkgrlejEV4CBakv/83uz/k4+o0bfm2fMU8BWr0VGBKJvWVL8vAEIBgj8eNVW9aEvA2Lx3JN9I9czyxTuzlzr8Pa8rTjfnx0Ar2SoUFnkcr3X0kGPKEr1/xjNGium1dWyPqHgq95idiHoDE13vsPD+bOsi8ex7qvMAj/6dYZvTVGwJzGZdL0OljxgRaNN1DMbU5tjb44QHZoudxzaJ6StGvmQNf1YQds9E7Ni8G6AtjyZY5AU6GvBEYXq6DPSNBzw/HhCFxFSTg0EJNCNjPJSqQ/TpJgrEwmCvR97qCWOASEx/DmStfVeJGZJWbDU/AvWfTK6nm8MRCsBuGIq1UiJSkfOUbuZKdCcUBEQJ8mwI0ou97FhRy3UFAOOqYIvKUs0HV0BWzexL+PS52FWqdD4t6FeuLfkyCbk7V67uAWgpWz3CcaQmxidTjPIy6wvVh+zfABHFOz54rt/Y5IMltATIeAMnEzSGWbSZm0E1BXiMlPA+TqPGng9ByNmKMeUL5kFu3DEAm9SUY/G2NCOl4hKxEgRvV2wtG8mFvJ5INIG9xT7x13f51Lnap4+G+b7bwG3/IFs/Ozlo74IKdCUxg="
+
 branches:
   only:
   - develop
