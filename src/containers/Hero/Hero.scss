@@ -7,6 +7,22 @@
         display: flex;
         padding-top: 51px;
         flex-direction: column;
+        
+        // Small devices (phones, 568px and up)
+        @media screen and (min-width: 568px) and (orientation: landscape) {
+            height: 200vh;
+        }
+        
+        // Medium devices (tablets, 640px and up)
+        @media screen and (min-width: 640px) and (orientation: landscape) {
+            height: 150vh;
+        }
+        
+        // Large devices (desktops, 1024px and up)
+        @media screen and (min-width: 1024px) and (orientation: landscape) {
+            height: 100vh;
+        }
+          
     }
 
     &__imageContainer {
