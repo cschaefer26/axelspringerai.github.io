@@ -7,7 +7,8 @@ module.exports = (env) => {
         new CopyWebpackPlugin([
             { from: 'src/static', to: 'static' },
             { from: 'src/styles/preload.css', to: 'preload.css' },
-            { from: 'README.md', to: 'README.md' }
+            { from: 'src/manifest.json', to: 'manifest.json' },
+            { from: 'README.md', to: 'README.md' },
         ])
     ];
 
