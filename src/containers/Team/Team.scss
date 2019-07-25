@@ -1,0 +1,79 @@
+@import '../../styles/variables.scss';
+
+.team{
+  
+    &__container {
+        background: $lightgray 
+    }
+    
+    &__column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+        background: $lightgray;
+        
+        @media screen and (max-width: 650px) {
+            width: 100%;
+            display: block;
+        }
+    }
+    
+    &__card {
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    }
+    
+    &__bottomContainer {
+        padding: 0 5px;
+        text-align: center;
+        
+        &:after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+    }
+    
+    &__row {
+        &:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+    
+    &__title {
+        color: $darkgray;
+        margin-bottom: 10px;
+    }
+    
+    &__img {
+        width: 50%;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    &__heading {
+        margin-bottom: -20px !important;
+        position: relative;
+        z-index: 1;
+        border: 2px solid #fff;
+    }
+    
+    &__item {
+        color: $black;
+        padding: 0 6px;
+        transition: color .1s;
+        font-size: x-large;
+
+        @media screen and (max-width: 500px) {
+            font-size: medium;
+        }
+
+        &:hover {
+            color: #adadad;
+        }
+    }
+}
