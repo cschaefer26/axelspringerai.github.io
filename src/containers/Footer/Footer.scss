@@ -3,9 +3,9 @@
 .footer{
     &__container {
         background-color: $white;
-        padding: 10px 0px;
+        padding: 0px 0px;
         line-height: 2;
-        /*border-top: 5px solid $asblue;*/
+        border-top: 1px solid #d1d2d3;
         
         @media screen and (max-width: 500px) {
             font-size: small;

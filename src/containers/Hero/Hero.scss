@@ -97,6 +97,14 @@
             padding: 20px 30px;
         }
     }
+    
+    &__links {
+        color: $asblue;
+
+        a {
+            color: $asblue;
+          }
+    }
 
     &__scrollDown {
         height: 25px;
