@@ -9,6 +9,10 @@
         flex-direction: column;
         
         // Small devices (phones, 568px and up)
+        @media screen and (max-width: 320px) and (orientation: portrait) {
+            height: 150vh;
+        }
+        
         @media screen and (min-width: 568px) and (orientation: landscape) {
             height: 200vh;
         }
