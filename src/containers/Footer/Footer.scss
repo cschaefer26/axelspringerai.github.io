@@ -5,8 +5,13 @@
         background-color: $white;
         padding: 10px 0px;
         line-height: 2;
-    }   
-
+        /*border-top: 5px solid $asblue;*/
+        
+        @media screen and (max-width: 500px) {
+            font-size: small;
+        }
+    }
+    
     &__content {
         @extend .centeredContainer;
 
