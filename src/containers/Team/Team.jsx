@@ -5,7 +5,7 @@ var FontAwesome = require('react-fontawesome');
 
 export default (props) => {
     return (
-        <section className="team__container">
+        <section className="team__container" id="team">
         <h2 className="sectionHeading team__heading">Team</h2>
           <div className="team__row">
             <div className="team__column">

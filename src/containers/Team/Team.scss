@@ -3,6 +3,7 @@
 .team{
   
     &__container {
+        @extend .centeredContainer;
         background: $white;
 
     }
