@@ -81,10 +81,12 @@
     }   
 
     &__text {
+        @extend .centeredContainer;
         font-size: 20px;
         padding: 40px 70px;
-        text-align: center;
+        /*text-align: center;*/
         background-color: #fff;
+        /*border-bottom: 1px dashed #d1d2d3;*/
 
         flex: none;
 
