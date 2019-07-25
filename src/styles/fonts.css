@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Mont AS Pro Hairline';
+    src: url('../fonts/MontASPro-Hairline.woff2') format('woff2'),
+        url('../fonts/MontASPro-Hairline.woff') format('woff'),
+        url('../fonts/MontASPro-Hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-ExtraLight.woff2') format('woff2'),
+        url('../fonts/MontASPro-ExtraLight.woff') format('woff'),
+        url('../fonts/MontASPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-Heavy.woff2') format('woff2'),
+        url('../fonts/MontASPro-Heavy.woff') format('woff'),
+        url('../fonts/MontASPro-Heavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-Light.woff2') format('woff2'),
+        url('../fonts/MontASPro-Light.woff') format('woff'),
+        url('../fonts/MontASPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-Black.woff2') format('woff2'),
+        url('../fonts/MontASPro-Black.woff') format('woff'),
+        url('../fonts/MontASPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-BlackItalic.woff2') format('woff2'),
+        url('../fonts/MontASPro-BlackItalic.woff') format('woff'),
+        url('../fonts/MontASPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-ThinItalic.woff2') format('woff2'),
+        url('../fonts/MontASPro-ThinItalic.woff') format('woff'),
+        url('../fonts/MontASPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro Hairline';
+    src: url('../fonts/MontASPro-HairlineItalic.woff2') format('woff2'),
+        url('../fonts/MontASPro-HairlineItalic.woff') format('woff'),
+        url('../fonts/MontASPro-HairlineItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-RegularItalic.woff2') format('woff2'),
+        url('../fonts/MontASPro-RegularItalic.woff') format('woff'),
+        url('../fonts/MontASPro-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/MontASPro-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/MontASPro-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-LightItalic.woff2') format('woff2'),
+        url('../fonts/MontASPro-LightItalic.woff') format('woff'),
+        url('../fonts/MontASPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-Bold.woff2') format('woff2'),
+        url('../fonts/MontASPro-Bold.woff') format('woff'),
+        url('../fonts/MontASPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/MontASPro-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/MontASPro-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/MontASPro-HeavyItalic.woff') format('woff'),
+        url('../fonts/MontASPro-HeavyItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/MontASPro-BoldItalic.woff') format('woff'),
+        url('../fonts/MontASPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro Book';
+    src: url('../fonts/MontASPro-BookItalic.woff2') format('woff2'),
+        url('../fonts/MontASPro-BookItalic.woff') format('woff'),
+        url('../fonts/MontASPro-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-SemiBold.woff2') format('woff2'),
+        url('../fonts/MontASPro-SemiBold.woff') format('woff'),
+        url('../fonts/MontASPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-Regular.woff2') format('woff2'),
+        url('../fonts/MontASPro-Regular.woff') format('woff'),
+        url('../fonts/MontASPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro';
+    src: url('../fonts/MontASPro-Thin.woff2') format('woff2'),
+        url('../fonts/MontASPro-Thin.woff') format('woff'),
+        url('../fonts/MontASPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont AS Pro Book';
+    src: url('../fonts/MontASPro-Book.woff2') format('woff2'),
+        url('../fonts/MontASPro-Book.woff') format('woff'),
+        url('../fonts/MontASPro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
