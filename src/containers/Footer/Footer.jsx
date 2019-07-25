@@ -14,8 +14,8 @@ export default (props) => {
             <a href='https://www.facebook.com/AxelSpringerKarriere/' className='footer__item'><FontAwesome name='facebook' /></a>
         </p>
         <p className='footer__links'>
-          <a href='https://www.axelspringer.com/de/impressum'>Impressum</a>
-          <a href='https://www.axelspringer.com/de/datenschutzerklaerung'>Datenschutz</a>
+          <a href='https://www.axelspringer.com/en/imprint'>Imprint</a>
+          <a href='https://www.axelspringer.com/en/data-and-privacy'>Data & Privacy</a>
         </p>
       </div>
     </footer>
