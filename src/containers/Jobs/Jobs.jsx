@@ -20,7 +20,7 @@ export default (props) => {
                 <p className='jobs__adHeading'>Want to work with us?</p>
                 <p className='jobs__adSubheading'>We offer many vacancies in data science & machine learning!</p>
             </div>
-            <a onClick={goToJobs} className='jobs__buttonJobs button' href="https://career.axelspringer.com/">Find your new job</a>
+            <a onClick={goToJobs} className='jobs__buttonJobs button' href="https://career.axelspringer.com/">Join us!</a>
         </section>
     );
 }
