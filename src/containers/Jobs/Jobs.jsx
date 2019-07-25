@@ -16,7 +16,7 @@ export default (props) => {
             <Gallery />
             <div className='jobs__advertisement'>
                 <p className='jobs__adHeading'>Want to work with us?</p>
-                <p className='jobs__adSubheading'>We offer many vacancies in data science & machine learning!</p>
+                <p className='jobs__adSubheading'>We offer many vacancies in data science & machine learning across the Axel Springer group!</p>
             </div>
             <a onClick={goToJobs} className='jobs__buttonJobs button' href="https://career.axelspringer.com/">Join us!</a>
         </section>

@@ -140,7 +140,8 @@
         }
 
         &:hover {
-            text-decoration: underline;
+            /*text-decoration: underline;*/
+            color: $aspink;
             
             &:after {
                 //height: 40%;

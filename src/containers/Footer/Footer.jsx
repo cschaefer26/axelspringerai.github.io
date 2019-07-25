@@ -15,7 +15,7 @@ export default (props) => {
         </p>
         <p className='footer__links'>
           <a href='https://www.axelspringer.com/de/impressum'>Impressum</a>
-          <a href='https://www.axelspringer.com/de/datenschutzerklaerung'>Hinweise zum Datenschutz</a>
+          <a href='https://www.axelspringer.com/de/datenschutzerklaerung'>Datenschutz</a>
         </p>
       </div>
     </footer>
