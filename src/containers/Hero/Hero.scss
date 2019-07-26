@@ -57,6 +57,12 @@
         color: $font-color-secondary;
         line-height: 1.2;
         margin-right: auto;
+        
+        background-color: $aspink;
+        padding: 10px 20px;
+        -webkit-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        transform: rotate(-3deg);
 
         @media screen and (max-width : 500px) {
             line-height: 1;
@@ -128,6 +134,10 @@
         @media screen and (max-width : 500px) {
             display: none;
         }
+    }
+    
+    &__underscore {
+        color: $asiceblue;
     }
 }
 
