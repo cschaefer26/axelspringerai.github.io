@@ -9,17 +9,17 @@
         flex-direction: column;
         
         // Small devices (phones, 568px and up)
-        @media screen and (max-width: 320px) and (orientation: portrait) {
+        @media screen and (max-width: 360px) and (orientation: portrait) {
             height: 150vh;
         }
         
         @media screen and (min-width: 568px) and (orientation: landscape) {
-            height: 220vh;
+            height: 180vh;
         }
         
         // Medium devices (tablets, 640px and up)
         @media screen and (min-width: 640px) and (orientation: landscape) {
-            height: 170vh;
+            height: 150vh;
         }
         
         // Large devices (desktops, 1024px and up)
@@ -93,7 +93,7 @@
     &__text {
         @extend .centeredContainer;
         font-size: 20px;
-        padding: 40px 70px;
+        padding: 10px 40px;
         /*text-align: center;*/
         background-color: #fff;
         /*border-bottom: 1px dashed #d1d2d3;*/
@@ -103,10 +103,27 @@
         > strong {
             font-weight: bold;
         }
+        
+        @media screen and (min-width: 568px) and (orientation: landscape) {
+            font-size: 18px;
+            padding: 5px 50px;
+        }
+        
+        // Medium devices (tablets, 640px and up)
+        @media screen and (min-width: 640px) and (orientation: landscape) {
+            font-size: 18px;
+            padding: 5px 50px;
+        }
+        
+        // Large devices (desktops, 1024px and up)
+        @media screen and (min-width: 1024px) and (orientation: landscape) {
+            font-size: 20px;
+            padding: 10px 40px;
+        }
 
         @media screen and (max-width : 500px) {
             font-size: 18px;
-            padding: 20px 30px;
+            padding: 10px 30px;
         }
     }
     
