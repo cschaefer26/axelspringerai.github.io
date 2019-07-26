@@ -35,7 +35,6 @@
     "node-cache": "^4.1.1",
     "node-sass": "^4.5.0",
     "normalize.css": "^7.0.0",
-    "piwik-tracker": "^1.1.1",
     "postcss-loader": "^2.0.6",
     "react": "15.4.2",
     "react-addons-test-utils": "^15.6.0",

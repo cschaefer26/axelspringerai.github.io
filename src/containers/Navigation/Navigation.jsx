@@ -32,6 +32,7 @@ export default class Navigation extends Component {
   handleScroll(e) {
     let active = '';
 
+    if (this.isVisible('.team__container')) active = 'team__container';
     if (this.isVisible('.projects__container')) active = 'projects__container';
     if (this.isVisible('.jobs__container')) active = 'jobs__container';
 
@@ -82,8 +83,11 @@ export default class Navigation extends Component {
           <li onClick={this.goTo.bind(this, '#home')} className={'navigation__item navigation__item--logo'} >
             <img className='navigation__logo' src='static/as_logo.gif' alt='Axel Springer SE Logo' />
           </li>
+          <li onClick={this.goTo.bind(this, '#team')} className={'navigation__item' + (this.state.active == 'team__container' ? ' navigation__item--active' : '')}>
+            Team
+          </li>
           <li onClick={this.goTo.bind(this, '#projects')} className={'navigation__item' + (this.state.active == 'projects__container' ? ' navigation__item--active' : '')}>
-            Our Projects
+            Projects
           </li>
           <li onClick={this.goTo.bind(this, '#jobs')} className={'navigation__item' + (this.state.active == 'jobs__container' ? ' navigation__item--active' : '')}>
             Jobs

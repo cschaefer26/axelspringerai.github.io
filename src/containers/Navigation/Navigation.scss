@@ -170,8 +170,8 @@
 
             &.open {
                 background-color: $background-color-primary;
-                height: 129px;
-                margin-bottom: -3px;
+                height: 175px;
+                margin-bottom: 0px;
             }
         }
 
@@ -188,11 +188,15 @@
             bottom: 0;
 
             &:nth-child(2) {
-                bottom: 39px;
+                bottom: 80px;
+            }
+            
+            &:nth-child(3) {
+                bottom: 45px;
             }
 
-            &:nth-child(3) {
-                bottom: 0px;
+            &:nth-child(4) {
+                bottom: 10px;
             }
 
             &:before, &:after {
