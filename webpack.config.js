@@ -8,6 +8,7 @@ module.exports = (env) => {
             { from: 'src/static', to: 'static' },
             { from: 'src/styles/preload.css', to: 'preload.css' },
             { from: 'src/manifest.json', to: 'manifest.json' },
+            { from: 'src/CNAME', to: 'CNAME' },
             { from: 'README.md', to: 'README.md' },
         ])
     ];
