@@ -1,7 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
-var CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = (env) => {
     const plugins = [
@@ -21,11 +20,6 @@ module.exports = (env) => {
                     NODE_ENV: JSON.stringify('production')
                 }
             }),
-            new CompressionPlugin({
-                algorithm: 'gzip',
-                test: /\.js$|\.css$|\.html$/,
-                deleteOriginalAssets: true,
-            })
         );
     }
 
