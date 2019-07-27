@@ -21,7 +21,7 @@
         max-width: none;
         padding: 0 20px;
                    
-        @media screen and (max-width: 650px) {
+        @media screen and (max-width: 823px) {
             display: flex;
             flex-flow: column;
             text-align: center;
@@ -29,6 +29,7 @@
             #blockCopy {
                 order: 3;
                 padding-bottom: 10px;
+                font-size: 10px;
             }            
         }
     }
@@ -51,8 +52,7 @@
             }
         }
         
-        /* Optimize for mobile phones */
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 823px) {
             padding-bottom: 10px;
             font-size: 15px;
         }
@@ -65,8 +65,7 @@
         transition: color .1s;
         font-size: 30px;
         
-        /* Optimize for mobile phones */
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 823px) {
             padding: 0 10px;
             font-size: 40px;
         }
