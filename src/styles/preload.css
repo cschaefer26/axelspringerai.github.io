@@ -1,14 +1,14 @@
 :root:before {
     content:  
         url(static/thumbnails/header_tn.jpg)
-        url(static/thumbnails/job_01_tn.jpg)
-        url(static/thumbnails/job_02_tn.jpg)
-        url(static/thumbnails/job_03_tn.jpg)
-        url(static/thumbnails/job_04_tn.jpg)
-        url(static/thumbnails/job_05_tn.jpg)
-        url(static/thumbnails/job_06_tn.jpg)
-        url(static/thumbnails/job_07_tn.jpg)
-        url(static/thumbnails/job_08_tn.jpg);         
+        url(static/thumbnails/jobs_01_tn.jpg)
+        url(static/thumbnails/jobs_02_tn.jpg)
+        url(static/thumbnails/jobs_03_tn.jpg)
+        url(static/thumbnails/jobs_04_tn.jpg)
+        url(static/thumbnails/jobs_05_tn.jpg)
+        url(static/thumbnails/jobs_06_tn.jpg)
+        url(static/thumbnails/jobs_07_tn.jpg)
+        url(static/thumbnails/jobs_08_tn.jpg);         
     visibility: hidden;
     position: absolute;
     height: 0;
