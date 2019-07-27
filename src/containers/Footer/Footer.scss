@@ -28,7 +28,7 @@
     }
 
     &__links {
-        font-size: 12px;
+        font-size: 15px;
         color: $asblue;
         display: inline-block;
 
@@ -56,7 +56,7 @@
         color: $asblue;
         padding: 0 6px;
         transition: color .1s;
-        font-size: x-large;
+        font-size: 30px;
         
         @media screen and (max-width: 420px) {
             font-size: 40px;
