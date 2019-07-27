@@ -20,6 +20,11 @@
         align-items: center;
         max-width: none;
         padding: 0 20px;
+        
+        @media screen and (max-width: 420px) {
+            display: block;
+            text-align: center;
+        }
     }
 
     &__links {
@@ -39,6 +44,12 @@
                 border: 0;
             }
         }
+        
+        @media screen and (max-width: 420px) {
+            padding-bottom: 20px;
+            font-size: 15px;
+        }
+        
     }
     
     &__item {
@@ -47,13 +58,9 @@
         transition: color .1s;
         font-size: x-large;
         
-        /* iPhone 5 */
-        @media screen and (max-width: 320px) {
-            padding: 0 4px;
-        }
-
-        @media screen and (max-width: 500px) {
-            font-size: medium;
+        @media screen and (max-width: 420px) {
+            font-size: 40px;
+            padding: 0 10px;
         }
 
         &:hover {
