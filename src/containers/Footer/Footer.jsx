@@ -14,7 +14,9 @@ export default (props) => {
             <a href='https://www.instagram.com/axel_springer_karriere/' className='footer__item'><FontAwesome name='instagram' /></a>
             <a href='https://www.facebook.com/AxelSpringerKarriere/' className='footer__item'><FontAwesome name='facebook' /></a>
         </p>
-        <p className='footer__links'>
+        <p id='blockCopy'> &copy; 2019 Axel Springer SE
+        </p>
+        <p className='footer__links' id='orderB'>
           <a href='https://www.axelspringer.com/en/imprint'>Imprint</a>
           <a href='https://www.axelspringer.com/en/data-and-privacy'>Data & Privacy</a>
         </p>
