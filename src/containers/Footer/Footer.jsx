@@ -9,6 +9,7 @@ export default (props) => {
       <div className='footer__content'>
         <p>
             <a href='https://twitter.com/axelspringer_EN' className='footer__item'><FontAwesome name='twitter' /></a>
+            <a href='https://tech.axelspringer.com/' className='footer__item'><FontAwesome name='medium' /></a>
             <a href='https://www.linkedin.com/company/axel-springer-se/' className='footer__item'><FontAwesome name='linkedin' /></a>
             <a href='https://www.instagram.com/axel_springer_karriere/' className='footer__item'><FontAwesome name='instagram' /></a>
             <a href='https://www.facebook.com/AxelSpringerKarriere/' className='footer__item'><FontAwesome name='facebook' /></a>
