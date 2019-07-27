@@ -70,10 +70,6 @@
         transition: color .1s;
         font-size: x-large;
 
-        @media screen and (max-width: 500px) {
-            font-size: medium;
-        }
-
         &:hover {
             color: $aspink;
         }
