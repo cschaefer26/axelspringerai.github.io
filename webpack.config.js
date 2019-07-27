@@ -24,6 +24,7 @@ module.exports = (env) => {
             new CompressionPlugin({
                 algorithm: 'gzip',
                 test: /\.js$|\.css$|\.html$/,
+                deleteOriginalAssets: true,
             })
         );
     }
@@ -43,7 +44,6 @@ module.exports = (env) => {
                     test: /\.(js|jsx)$/,
                     include: [
                         path.resolve(__dirname, "src"),
-                        path.resolve(__dirname, "node_modules/piwik-tracker")
                     ],
                     use: [
                         'babel-loader'
