@@ -22,7 +22,7 @@ exports[`Navigation component should render as expected 1`] = `
       <img
         alt="Axel Springer SE Logo"
         className="navigation__logo"
-        src="static/as_logo.svg"
+        src="static/as_logo.gif"
       />
     </li>
     <li

@@ -14,7 +14,7 @@ export default (props) => {
 
   return (
     <header className='hero__container' id='home'>
-      <ProgressiveImage className='hero__image' src='static/header.jpg' thumbnail='static/thumbnails/header.jpg' />
+      <ProgressiveImage className='hero__image' src='static/header.jpg' thumbnail='static/thumbnails/header_tn.jpg' />
 
       <div className='hero__imageContainer'>
         <div className='hero__bottomContainer'>
