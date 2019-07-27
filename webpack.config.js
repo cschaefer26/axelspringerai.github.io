@@ -24,7 +24,7 @@ module.exports = (env) => {
             new CompressionPlugin({
                 algorithm: 'gzip',
                 test: /\.js$|\.css$|\.html$/,
-            }),
+            })
         );
     }
 
