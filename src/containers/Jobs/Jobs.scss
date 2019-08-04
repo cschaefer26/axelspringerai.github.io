@@ -20,7 +20,11 @@
 
     &__headingContainer {
         @extend .centeredContainer;
-        text-align: left;    
+        text-align: left;  
+        
+        @media screen and (max-width: 500px) {
+            padding: 5px 20px;
+        }  
     }
 
     &__heading {

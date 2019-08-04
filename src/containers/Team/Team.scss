@@ -5,7 +5,10 @@
     &__container {
         @extend .centeredContainer;
         background: $white;
-
+        
+        @media screen and (max-width: 500px) {
+            padding: 5px 20px;
+        }
     }
     
     &__column {
