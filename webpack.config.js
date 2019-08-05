@@ -8,6 +8,7 @@ module.exports = (env) => {
             { from: 'src/static', to: 'static' },
             { from: 'src/styles/preload.css', to: 'preload.css' },
             { from: 'src/manifest.json', to: 'manifest.json' },
+            { from: 'src/favicon.ico', to: 'favicon.ico' },
             { from: 'src/CNAME', to: '' },
             { from: 'README.md', to: 'README.md' },
         ])
