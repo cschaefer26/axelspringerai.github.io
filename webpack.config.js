@@ -6,11 +6,10 @@ module.exports = (env) => {
     const plugins = [
         new CopyWebpackPlugin([
             { from: 'src/static', to: 'static' },
+            { from: 'src/favicon', to: '' },
             { from: 'src/styles/preload.css', to: 'preload.css' },
             { from: 'src/manifest.json', to: 'manifest.json' },
             { from: 'src/browserconfig.xml', to: 'browserconfig.xml' },
-            { from: 'src/favicon.ico', to: 'favicon.ico' },
-            { from: 'src/apple-touch-icon.png', to: 'apple-touch-icon.png' },
             { from: 'src/CNAME', to: '' },
             { from: 'README.md', to: 'README.md' },
         ])
