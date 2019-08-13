@@ -18,7 +18,7 @@ export default (props) => {
 
       <div className='hero__imageContainer'>
         <div className='hero__bottomContainer'>
-          <p className='hero__bottomText'>axel springer ai<span className='hero__underscore'> _</span></p>
+          <p className='hero__bottomText'>{/*axel springer ai<span className='hero__underscore'> _</span>*/}</p>
           <Socials className='hero__socials' />
         </div>
         {/*<img className='hero__scrollDown' src='static/arrow.png' onClick={scrollDown} />*/}
