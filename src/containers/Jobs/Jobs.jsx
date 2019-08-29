@@ -11,7 +11,7 @@ export default (props) => {
     return (
         <section className='jobs__container' id='jobs'>
             <div className='jobs__headingContainer'>
-                <h2 className='sectionHeading jobs__heading'>jobs<span className='jobs__underscore'> _</span></h2>
+                <h2 className='sectionHeading jobs__heading'>jobs</h2>
             </div>
             <Gallery />
             <div className='jobs__advertisement'>

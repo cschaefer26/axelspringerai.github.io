@@ -24,7 +24,7 @@ export default (props) => {
         {/*<img className='hero__scrollDown' src='static/arrow.png' onClick={scrollDown} />*/}
       </div>
       <p className='hero__text'>
-        <h3>who we are<span className='hero__underscore'> _</span></h3>
+        <h3>who we are<span className='hero__underscore'> ~</span></h3>
         Axel Springer AI is the artificial intelligence unit of <a href="https://www.axelspringer.com/" className='hero__links' target="_blank">Axel Springer SE</a> which is the largest digital publishing house in Europe. We're also part of <a href="https://www.ideas-engineering.io/" className='hero__links' target="_blank">Axel Springer Ideas Engineering</a>, the innovation unit of Axel Springer. 
         
         <br /><br />
