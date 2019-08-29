@@ -22,6 +22,18 @@ export default (props) => {
             </div>
             <div className='team__column'>
               <div className='team__card'>
+                <img className='team__img' src='static/christian.jpg' />
+                <div className='team__bottomContainer'>
+                  <h2>Christian Schäfer</h2>
+                  <p className='team__title'>Senior Machine Learning Engineer</p>
+                  <br />
+                  <p><a href='mailto:christian.schaefer@axelspringer.com' className='team__item'><FontAwesome name='envelope' /></a></p>
+                  <p><a href='https://www.linkedin.com/in/christian-schäfer-630435104/' className='team__item'><FontAwesome name='linkedin' /></a></p>
+                </div>
+              </div>
+            </div>
+            <div className='team__column'>
+              <div className='team__card'>
                 <img className='team__img' src='static/francesco.jpg' />
                 <div className='team__bottomContainer'>
                   <h2>Francesco Cardinale</h2>
