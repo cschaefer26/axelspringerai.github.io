@@ -9,11 +9,11 @@
         flex-direction: column;
         
         @media screen and (min-width: 320px) and (orientation: portrait) {
-            height: 150vh;
+            height: 120vh;
         }
                 
         @media screen and (min-width: 375px) and (orientation: portrait) {
-            height: 130vh;
+            height: 110vh;
         }
         
         @media screen and (min-width: 568px) and (orientation: portrait) {
