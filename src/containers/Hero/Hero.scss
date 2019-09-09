@@ -3,42 +3,9 @@
 .hero{
 
     &__container {
-        height: 100vh;
         display: flex;
         padding-top: 51px;
-        flex-direction: column;
-        
-        @media screen and (min-width: 320px) and (orientation: portrait) {
-            height: 120vh;
-        }
-                
-        @media screen and (min-width: 375px) and (orientation: portrait) {
-            height: 110vh;
-        }
-        
-        @media screen and (min-width: 568px) and (orientation: portrait) {
-            height: 100vh;
-        }
-        
-        // Small devices (phones, 568px and up)
-        @media screen and (min-width: 568px) and (orientation: landscape) {
-            height: 180vh;
-        }
-        
-        @media screen and (min-width: 640px) and (orientation: landscape) {
-            height: 150vh;
-        }
-        
-        // Medium devices (tablets, 640px and up)
-        @media screen and (min-width: 824px) and (orientation: landscape) {
-            height: 100vh;
-        }
-        
-        // Large devices (desktops, 1024px and up)
-        @media screen and (min-width: 1024px) and (orientation: landscape) {
-            height: 100vh;
-        }
-          
+        flex-direction: column;          
     }
 
     &__imageContainer {
@@ -49,6 +16,49 @@
     
     &__image {
         flex: 1;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: 0% 50%;
+        
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 321px) { 
+            max-height: 500px;
+        }
+
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) {
+            max-height: 600px;
+        }
+
+        // Large devices (desktops, 992px and up)
+        @media (min-width: 992px) { 
+            max-height: 800px; 
+        }
+
+        // Extra large devices (large desktops, 1200px and up)
+        @media (min-width: 1200px) {
+            max-height: 800px; 
+        }
+        
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 321px) and (orientation: landscape) {
+            max-height: 200px; 
+        }
+        
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px)  and (orientation: landscape) {
+            max-height: 300px; 
+        }
+
+        // Large devices (desktops, 992px and up)
+        @media (min-width: 992px)  and (orientation: landscape) {
+            max-height: 500px; 
+        }
+        
+        // Extra large devices (large desktops, 1200px and up)
+        @media (min-width: 1200px) and (orientation: landscape) {
+            max-height: 800px; 
+        }
     }
 
     &__bottomContainer {

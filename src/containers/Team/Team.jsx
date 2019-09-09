@@ -15,6 +15,10 @@ export default (props) => {
                   <h2>Dat Tran</h2>
                   <p className='team__title'>Head of AI</p>
                   <br />
+                  <p>MSc Economics</p>
+                  <br />
+                  <p>Humboldt University of Berlin</p>
+                  <br />
                   <p><a href='mailto:dat.tran@axelspringer.com' className='team__item'><FontAwesome name='envelope' /></a></p>
                   <p><a href='https://www.linkedin.com/in/dat-tran-a1602320/' className='team__item'><FontAwesome name='linkedin' /></a></p>
                 </div>
@@ -26,6 +30,10 @@ export default (props) => {
                 <div className='team__bottomContainer'>
                   <h2>Christian Schäfer</h2>
                   <p className='team__title'>Senior Machine Learning Engineer</p>
+                  <br />
+                  <p>PhD Physics</p>
+                  <br />
+                  <p>Humboldt University of Berlin</p>
                   <br />
                   <p><a href='mailto:christian.schaefer@axelspringer.com' className='team__item'><FontAwesome name='envelope' /></a></p>
                   <p><a href='https://www.linkedin.com/in/christian-schäfer-630435104/' className='team__item'><FontAwesome name='linkedin' /></a></p>
@@ -39,6 +47,10 @@ export default (props) => {
                   <h2>Francesco Cardinale</h2>
                   <p className='team__title'>Machine Learning Engineer</p>
                   <br />
+                  <p>MSc Mathematics</p>
+                  <br />
+                  <p>Technical University of Berlin</p>
+                  <br />
                   <p><a href='mailto:francesco.cardinale@axelspringer.com' className='team__item'><FontAwesome name='envelope' /></a></p>
                   <p><a href='https://www.linkedin.com/in/francesco-cardinale-a47b9888/' className='team__item'><FontAwesome name='linkedin' /></a></p>
                 </div>
@@ -50,6 +62,10 @@ export default (props) => {
                 <div className='team__bottomContainer'>
                   <h2>Malgorzata Adamczyk</h2>
                   <p className='team__title'>Machine Learning Engineer</p>
+                  <br />
+                  <p>MSc Geography</p>
+                  <br />
+                  <p>University of Warsaw</p>
                   <br />
                   <p><a href='mailto:malgorzata.adamczyk@axelspringer.com' className='team__item'><FontAwesome name='envelope' /></a></p>
                   <p><a href='https://www.linkedin.com/in/ma%C5%82gorzata-adamczyk-65b949a0/' className='team__item'><FontAwesome name='linkedin' /></a></p>

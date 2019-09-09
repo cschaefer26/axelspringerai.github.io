@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Hero.scss';
 
 import Socials from '../../components/Socials/Socials'
-import ProgressiveImage from '../../components/ProgressiveImage/ProgressiveImage';
+import ProgressiveImage from 'react-progressive-image';
 
 export default (props) => {
   function scrollDown() {
@@ -14,8 +14,9 @@ export default (props) => {
 
   return (
     <header className='hero__container' id='home'>
-      <ProgressiveImage className='hero__image' src='static/header.jpg' thumbnail='static/thumbnails/header_tn.jpg' />
-
+      <ProgressiveImage src='./static/header.jpg' placeholder='./static/thumbnails/header_tn.jpg'>
+        {src => <img className='hero__image' src={src} alt='Axel Springer AI Header.' />}
+      </ProgressiveImage>
       <div className='hero__imageContainer'>
         <div className='hero__bottomContainer'>
           <p className='hero__bottomText'>{/*axel springer ai<span className='hero__underscore'> _</span>*/}</p>
