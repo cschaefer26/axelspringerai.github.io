@@ -1,5 +1,15 @@
 export default [
     {
+        "title": "headliner",
+        "description": "📰 Generating headlines from news articles using seq2seq models.",
+        "videoUrl": "",
+        "ownerId": "as-ideas",
+        "ownerUrl": "",
+        "ownerLogo": "tensorflow",
+        "projectId": "headliner",
+        "language": "python"
+    },
+    {
         "title": "image-quality-assessment",
         "description": "Convolutional Neural Networks to predict the aesthetic and technical quality of images.",
         "videoUrl": "",
@@ -11,12 +21,22 @@ export default [
     },
     {
         "title": "image-super-resolution",
-        "description": "Super-scale your images and run experiments with Residual Dense and Adversarial Networks.",
+        "description": "🔎 Super-scale your images and run experiments with Residual Dense and Adversarial Networks.",
         "videoUrl": "",
         "ownerId": "idealo",
         "ownerUrl": "",
         "ownerLogo": "tensorflow",
         "projectId": "image-super-resolution",
+        "language": "python"
+    },
+    {
+        "title": "imagededup",
+        "description": "😎 Finding duplicate images made easy!",
+        "videoUrl": "",
+        "ownerId": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "tensorflow",
+        "projectId": "imagededup",
         "language": "python"
     },
     {
@@ -31,7 +51,7 @@ export default [
     },
     {
         "title": "cnn-exposed",
-        "description": "Interpreting Convolutional Neural Network (CNN) Results.",
+        "description": "🕵️‍♂️ Interpreting Convolutional Neural Network (CNN) Results.",
         "videoUrl": "",
         "ownerId": "idealo",
         "ownerUrl": "",
