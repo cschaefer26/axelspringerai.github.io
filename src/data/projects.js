@@ -1,7 +1,7 @@
 export default [
     {
         "title": "headliner",
-        "description": "📰 Generating headlines from news articles using seq2seq models.",
+        "description": "🏖 Easy training and deployment of seq2seq models.",
         "videoUrl": "",
         "ownerId": "as-ideas",
         "ownerUrl": "",
