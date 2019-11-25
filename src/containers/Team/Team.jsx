@@ -42,6 +42,22 @@ export default (props) => {
             </div>
             <div className='team__column'>
               <div className='team__card'>
+                <img className='team__img' src='static/tanuj.jpg' />
+                <div className='team__bottomContainer'>
+                  <h2>Tanuj Jain</h2>
+                  <p className='team__title'>Senior Machine Learning Engineer</p>
+                  <br />
+                  <p>MSc Electrical Systems Engineering</p>
+                  <br />
+                  <p>Paderborn University</p>
+                  <br />
+                  <p><a href='mailto:tanuj.jain@axelspringer.com' className='team__item'><FontAwesome name='envelope' /></a></p>
+                  <p><a href='https://www.linkedin.com/in/tanuj-jain-10/' className='team__item'><FontAwesome name='linkedin' /></a></p>
+                </div>
+              </div>
+            </div>
+            <div className='team__column'>
+              <div className='team__card'>
                 <img className='team__img' src='static/francesco.jpg' />
                 <div className='team__bottomContainer'>
                   <h2>Francesco Cardinale</h2>
