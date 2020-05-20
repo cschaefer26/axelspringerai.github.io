@@ -1,5 +1,15 @@
 export default [
     {
+        "title": "TransformerTTS",
+        "description": "🤖💬 Implementation of a Transformer based neural network for text to speech.",
+        "videoUrl": "",
+        "ownerId": "as-ideas",
+        "ownerUrl": "",
+        "ownerLogo": "tensorflow",
+        "projectId": "TransformerTTS",
+        "language": "python"
+    },
+    {
         "title": "ForwardTacotron",
         "description": "⏩ Generating speech in a single forward pass without any attention!",
         "videoUrl": "",
