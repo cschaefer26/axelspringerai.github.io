@@ -33,7 +33,7 @@
     "jest": "^24.6.0",
     "jest-enzyme": "^3.4.0",
     "node-cache": "^4.1.1",
-    "node-sass": "^4.5.0",
+    "node-sass": "^4.13.1",
     "normalize.css": "^7.0.0",
     "postcss-loader": "^2.0.6",
     "react": "15.4.2",
