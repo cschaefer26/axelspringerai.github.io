@@ -33,6 +33,20 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="preload.css" />
+    <style id="antiClickjack">
+        body{display:none !important;}
+    </style>
+    <script type="text/javascript">
+        if (self === top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        } else {
+            top.location = self.location;
+        }
+    </script>
+    
+    
+    
 </head>
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
